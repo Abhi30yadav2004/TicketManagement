@@ -14,5 +14,14 @@ A console-based Java application designed to efficiently manage and retrieve rai
 - ✅ JDBC integration for database connectivity
 - ✅ Easy to extend with additional modules (e.g., ticket creation, deletion, user login)
 
+ ## 📦 Dependencies & Configuration
+Java 8 or above
+
+MySQL Server
+
+JDBC Driver (included in IDE or manually added to classpath)
+
+A configured tickets table in MySQL
+
 ## 📂 Project Structure
 TicketManagement/ ├── src/ │ └── main/ │ └── java/ │ └── org/ │ └── example/ │ ├── Main.java # Entry point for the application │ ├── DatabaseManager.java # Handles connection setup and queries │ └── TicketFetcher.java # Manages ticket retrieval logic └── README.md
