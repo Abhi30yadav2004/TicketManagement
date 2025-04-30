@@ -1,35 +1,18 @@
+ # 🚉 Railway Ticket Management System
 
-# 🎟️ TicketManagement System
+A console-based Java application designed to efficiently manage and retrieve railway support tickets from a relational database. The system uses JDBC to connect with a MySQL backend and provides a simple interface for querying and displaying ticket information. The architecture follows modular design principles, ensuring separation of concerns, easy maintenance, and future scalability.
 
-A simple Java-based console application to manage and fetch support tickets using a database.
+## 🛠 Tech Stack
+- Java (Core)
+- JDBC
+- MySQL
+- Object-Oriented Programming (OOP)
 
-## 📌 Features
-
-- Fetch all tickets from the database
-- Modular code structure
-- JDBC integration for database access
-- Easily extendable for more functionality
-
-## 🛠️ Tech Stack
-
-- Java
-- JDBC (Java Database Connectivity)
-- MySQL (or any other SQL-based database)
-- IntelliJ IDEA (recommended)
+## 📌 Key Features
+- ✅ Fetch and display ticket details from a connected database
+- ✅ Clean code structure using object-oriented practices
+- ✅ JDBC integration for database connectivity
+- ✅ Easy to extend with additional modules (e.g., ticket creation, deletion, user login)
 
 ## 📂 Project Structure
-TicketManagement/
-├── .idea/                            # IntelliJ project files
-├── src/
-│   └── main/
-│       └── java/
-│           └── org/
-│               └── example/
-│                   ├── Main.java              # Main class with main method
-│                   ├── DatabaseManager.java   # Handles DB connection and queries
-│                   └── TicketFetcher.java     # Fetches tickets from DB
-├── .git/                             # Git repo data (hidden)
-├── .gitignore                        # Git ignore file
-└── README.md                         # Project documentation (this file)
-
-
+TicketManagement/ ├── src/ │ └── main/ │ └── java/ │ └── org/ │ └── example/ │ ├── Main.java # Entry point for the application │ ├── DatabaseManager.java # Handles connection setup and queries │ └── TicketFetcher.java # Manages ticket retrieval logic └── README.md
